@@ -50,6 +50,6 @@ class Garden_Gnome
   end 
 end 
 
-   hat_color.new = Garden_Gnome('red')
+   hat_color = Garden_Gnome.new('red')
 
 
