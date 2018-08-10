@@ -45,4 +45,4 @@ class GardenGnome
     puts "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!" 
 end 
    hat_color.new = garden_gnome('red')
-   
+  
