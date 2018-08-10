@@ -1,5 +1,5 @@
 # Code your instances here
-class GardenGnome 
+class Garden_Gnome 
  
   def initialize(hat_color)
     @personality= "evil"
@@ -41,11 +41,15 @@ class GardenGnome
     puts "Gnawing on a tree!!!" 
   end 
   
+  def shout 
+    puts "GNARLY!!!" 
+  end 
+  
   def introduce_self 
     puts "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!" 
   end 
 end 
 
-   hat_color.new = garden_gnome('red')
+   hat_color.new = Garden_Gnome('red')
 
 
