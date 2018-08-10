@@ -14,8 +14,9 @@ class GardenGnome
   end 
   
   def gluten_allergy=(new_gluten_allergy)
-end 
+    
+  end 
   
-  def 
+   
   
 end 
