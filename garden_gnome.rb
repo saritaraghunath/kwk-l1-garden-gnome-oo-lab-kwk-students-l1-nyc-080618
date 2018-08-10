@@ -1,6 +1,6 @@
 # Code your instances here
 class GardenGnome 
-    def initialize(name,age)
+    def initialize(name,age,gluten_allergy)
       @name = name 
       @age = age
     end 
@@ -12,4 +12,10 @@ class GardenGnome
   def age=(new_age)
     @age=new_age
   end 
+  
+  def gluten_allergy=(new_gluten_allergy)
+end 
+  
+  def 
+  
 end 
