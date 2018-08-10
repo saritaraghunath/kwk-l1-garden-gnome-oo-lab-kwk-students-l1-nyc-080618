@@ -1,7 +1,7 @@
 # Code your instances here
 class Garden_Gnome 
  
-  def initialize(hat_color,gnome1)
+  def initialize(hat_color)
     @personality= "evil"
   end 
     
@@ -48,6 +48,7 @@ class Garden_Gnome
   def introduce_self 
     puts "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!" 
   end 
+  
 end 
 
    hat_color = Garden_Gnome.new('red')
