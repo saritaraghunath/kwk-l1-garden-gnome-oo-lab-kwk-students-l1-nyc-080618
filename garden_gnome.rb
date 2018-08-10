@@ -28,6 +28,13 @@ class GardenGnome
     @gluten_allergy=new_gluten_allergy
   end 
   
+  def hat_color
+    @hat_color
+  end 
+  
+  def hat_color=(new_hat_color)
+    @hat_color=new_hat_color 
+  end 
 
 end 
    hat_color.new = garden_gnome('red')
