@@ -30,4 +30,5 @@ class GardenGnome
   
 
 end 
-   hat_color.new = garden_gnome('')
+   hat_color.new = garden_gnome('red')
+   
