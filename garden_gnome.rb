@@ -1,14 +1,15 @@
 # Code your instances here
 class GardenGnome 
-    def initialize(hat_color)
+ 
+  def initialize(hat_color)
     @personality= "evil"
-    end 
+  end 
     
-    def name 
-      @name 
-    end 
+  def name 
+    @name 
+  end 
     
-   def name=(new_name) 
+  def name=(new_name) 
     @name=new_name 
   end 
   
@@ -35,7 +36,13 @@ class GardenGnome
   def hat_color=(new_hat_color)
     @hat_color=new_hat_color 
   end 
-
+  
+  def gnaw 
+    puts "GNARLY!!!" 
+  end 
+  
+  def introduce_self 
+    puts "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!" 
 end 
    hat_color.new = garden_gnome('red')
    
